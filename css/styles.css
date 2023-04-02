@@ -48,6 +48,10 @@ span {
     text-decoration: none;
 }
 
+.logo-dark {
+    color: var(--brandColor);
+}
+
 .list {
     list-style: none;
 }
