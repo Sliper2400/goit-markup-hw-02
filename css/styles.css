@@ -1,5 +1,6 @@
 :root {
     --brand-color: #FFFFFF;
+    --brandColor: #4d5ae5;
 }
 
 body {
@@ -40,7 +41,15 @@ a {
 }
 
 span {
-    color: #4D5AE5;
+    color: #2e2f42;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 
 .nav-section {
