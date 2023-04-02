@@ -31,6 +31,15 @@ a {
     text-decoration: none;
 }
 
+.logo-dark {
+    color: #2e2f42;
+}
+
+.logo-light {
+    color: #F4F4FD;
+
+}
+
 .logo:hover {
     font-family: 'Roboto';
     font-weight: 600;
