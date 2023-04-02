@@ -48,7 +48,7 @@ a {
     font-weight: 600;
     font-size: 40px;
     line-height: 1.18;
-    color: var (--blue-color);
+    color: var(--blue-color);
     text-decoration: none;
 }
 
@@ -80,8 +80,9 @@ a {
     color: var(--grey-color);
 }
 
-.menu-link:hover {
-    color: var(--purple-color);
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
