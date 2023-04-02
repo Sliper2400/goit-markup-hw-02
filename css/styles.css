@@ -160,7 +160,7 @@ span {
 }
 
 .team {
-    background-color: #E7E9FC;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -178,9 +178,9 @@ span {
 }
 
 .member-name {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
