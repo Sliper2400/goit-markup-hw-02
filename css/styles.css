@@ -244,7 +244,7 @@ a {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--blue-color);
+    color: #f4f4fd;
 }
 
 .footer-p {
