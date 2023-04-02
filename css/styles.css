@@ -99,25 +99,30 @@ span {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
 }
 
 .hero-button {
     cursor: pointer;
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     cursor: pointer;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
-    background-color: #4D5AE5;
+    background-color: #404BBF;
 }
 
 .hero-button:active {
