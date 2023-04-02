@@ -67,9 +67,7 @@ a {
     letter-spacing: 2%;
 }
 
-.studio:hover,
-.portfolio:hover,
-.contacts:hover {
+.list-nav:hover {
     color: #434455;
     font-weight: 600;
     font-size: 16px;
@@ -77,9 +75,8 @@ a {
     letter-spacing: 2%;
 }
 
-.studio:active,
-.portfolio:active,
-.contacts:active {
+.list-nav:active,
+.list-nav:focus {
     color: #4D5AE5;
     font-weight: 600;
     font-size: 16px;
