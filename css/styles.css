@@ -230,7 +230,7 @@ a {
     color: #434455;
 }
 
-.footer {
+.footer-style {
     background-color: var(--grey-color);
     ;
 }
@@ -245,7 +245,7 @@ a {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--blue-color);
 }
 
 .footer-p {
