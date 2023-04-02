@@ -67,7 +67,33 @@ a {
     letter-spacing: 2%;
 }
 
-.list-nav:hover {
+.studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+}
+
+.portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+}
+
+.contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+}
+
+.studio:hover,
+.portfolio:hover,
+.contacts:hover {
     color: #434455;
     font-weight: 600;
     font-size: 16px;
@@ -75,8 +101,9 @@ a {
     letter-spacing: 2%;
 }
 
-.list-nav:active,
-.list-nav:focus {
+.studio:active,
+.portfolio:active,
+.contacts:active {
     color: #4D5AE5;
     font-weight: 600;
     font-size: 16px;
