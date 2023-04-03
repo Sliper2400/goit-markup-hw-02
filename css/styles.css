@@ -9,14 +9,10 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #434455;
     background-color: var(--white-color);
-    text-decoration: none;
 }
 
 a {
@@ -40,7 +36,7 @@ a {
 }
 
 .logo-light {
-    color: #f4f4fd;
+    color: var(--light-color);
 
 }
 
@@ -82,7 +78,7 @@ a {
 }
 
 .menu-link:hover {
-    color: #404bbf;
+    color: var(--purple-color);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -90,7 +86,7 @@ a {
 }
 
 .menu-link:focus {
-    color: #404bbf;
+    color: var(--purple-color);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -98,7 +94,7 @@ a {
 }
 
 .menu-link:active {
-    color: #4D5AE5;
+    color: var(--blue-color);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -118,19 +114,19 @@ a {
 }
 
 .contact-link:hover {
-    color: #404bbf;
+    color: var(--purple-color);
 }
 
 .contact-link:focus {
-    color: #404bbf;
+    color: var(--purple-color);
 }
 
 .hero {
-    background: #2E2F42;
+    background: var(--grey-color);
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -140,7 +136,7 @@ a {
 
 .hero-button {
     cursor: pointer;
-    color: #FFFFFF;
+    color: var(--white-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -152,12 +148,7 @@ a {
 
 .hero-button:hover,
 .hero-button:focus {
-    cursor: pointer;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.18;
-    background-color: #404BBF;
+    background-color: var(--purple-color);
 }
 
 .hero-button:active {
@@ -165,12 +156,12 @@ a {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-color);
+    background-color: var(--purple-color);
 }
 
 .features-title {
-    color: #2E2F42;
+    color: var(--grey-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -181,21 +172,21 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--dark-grey);
 }
 
 .duties-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    color: #2E2F42;
+    color: var(--grey-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--light-color);
 }
 
 .team-title {
@@ -205,11 +196,11 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--grey-color);
 }
 
 .member {
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
 }
 
 .member-name {
@@ -218,7 +209,7 @@ a {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--grey-color);
 }
 
 .member-job {
@@ -227,7 +218,7 @@ a {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--dark-grey);
 }
 
 .footer-style {
@@ -237,21 +228,24 @@ a {
 
 .logo-footer {
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: var(--blue-color);
 }
 
-.footer-p {
+.logo-light {
+    color: var(--light-color);
+}
+
+.text-footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--light-color);
 }
 
 .filters-item {
@@ -260,8 +254,8 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
+    color: var(--blue-color);
+    background-color: var(--light-color);
     cursor: pointer;
 }
 
@@ -270,8 +264,8 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-color);
+    background-color: var(--purple-color);
     cursor: pointer;
     ;
 }
@@ -280,14 +274,14 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-color);
+    background-color: var(--purple-color);
     cursor: pointer;
     ;
 }
 
 .project-card {
-    background: #FFFFFF;
+    background: var(--white-color);
     border: 1px solid #E7E9FC;
 }
 
@@ -303,5 +297,5 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--dark-grey);
 }
