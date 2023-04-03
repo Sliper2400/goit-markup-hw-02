@@ -262,10 +262,20 @@ a {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #F4F4FD;
+    cursor: pointer;
 }
 
 .filters-item:hover,
-.filters-item:active,
+.filters-item:active {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+    ;
+}
+
 .filters-item:focus {
     font-weight: 500;
     font-size: 16px;
@@ -274,6 +284,11 @@ a {
     background-color: #404BBF;
     cursor: pointer;
     ;
+}
+
+.project-card {
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
 }
 
 .card-content {
