@@ -259,6 +259,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #F4F4FD;
 }
