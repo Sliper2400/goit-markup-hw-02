@@ -201,7 +201,7 @@ a {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -215,7 +215,7 @@ a {
 .member-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.12;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
