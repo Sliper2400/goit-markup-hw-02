@@ -43,7 +43,7 @@ a {
 .logo:hover {
     font-family: 'Roboto';
     font-weight: 600;
-    font-size: 40px;
+    font-size: 18px;
     line-height: 1.18;
     color: var(--blue-color);
     text-decoration: none;
@@ -79,18 +79,10 @@ a {
 
 .menu-link:hover {
     color: var(--purple-color);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
 }
 
 .menu-link:focus {
     color: var(--purple-color);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
 }
 
 .menu-link:active {
@@ -290,7 +282,7 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--grey-color);
     letter-spacing: 0.02em;
 }
 
